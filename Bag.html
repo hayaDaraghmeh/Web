@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>log in </title>
+    <script>
+        let pic="/img/shirt.jpg";
+       function additem()
+       {let imgplace=document.getElementById('imgplace');
+       let image=document.createElement('img');
+           image.src=pic;
+           imgplace.append(image);
+           imgplace.append()
+
+
+       }
+        function moveC(){
+            window.location.href="LogasCoustomer.html";
+        }
+        function moveA(){
+            window.location.href="LogasAdmin.html";
+        }
+
+    </script>
+    <style>
+        .navbar {
+            opacity: 100%;
+            width: 200vh;
+            height: 60px;
+            background-color: cadetblue;
+            background-image:url("images/o22.gif");
+            background-size: 30vh;
+
+            position:absolute;
+            text-align: left;
+         }
+         .navbar  h2{
+            position: relative;
+            left:20px ;
+            bottom: 15px;
+            word-spacing: 20px;
+            font-size: 25px;
+
+         }
+          .navbar a{
+
+            color:white;
+
+          }
+
+          body{background-image: url("images/o5.jpg");background-size: cover;width:200vh;height: 100% ;}
+          .bag{ background-image: url("images/o4.jpg");
+            background-size:cover;height: 60vh;width:150vh;
+            position: relative;left:25vh;top:8vh;right :15vh;
+            border: #004b91 8px solid;
+
+        }
+
+        .t{text-align: center;
+            font-family:"MV Boli";font-size: 20px;
+           text-decoration-color: #004b91;
+             border:2px midnightblue solid;
+             width:150vh;
+         }
+        .f{padding-top: 100px; text-align: center;font-family:Papyrus;font-size: 30px;color:black;text-shadow: 2px 3px 7px goldenrod;}
+
+        .bt{font-size: 30px;font-family:"MV Boli";text-shadow:2px 3px 2px orange;width: 250px;height: 50px;border-radius: 5px;box-shadow: 2px 2px 3px gold ; background-color: floralwhite;border-color:saddlebrown}
+
+    </style>
+
+</head>
+<body >
+<div class="navbar">
+
+    <div class="navcont">
+        <h2><a href="homePage.php" >Home</a>
+            <a href="page1.php" >logout</a>
+            <a href="Bag.html" >myBag</a>
+        </h2>
+
+
+</div>
+
+
+<div class="bag" onclick="additem()">
+<table  class="t" border="1" >
+<tr>
+    <td>
+        item
+    </td>
+    <td>
+        item name
+    </td>
+    <td>
+        item ID
+    </td>
+    <td>
+        size
+    </td>
+    <td>
+        count
+    </td>
+    <td>
+        price
+    </td>
+</tr>
+
+
+
+
+
+</table>
+    <div id="imgplace" class="elements">
+
+    </div>
+</div>
+<form method="post" class="f" >
+
+
+   <pr> <input value="delete item" type="button" class="bt" >
+       <input value="delete all" type="button" class="bt">
+       <input value="sumbit and bye" type="button" class="bt">
+    </pr>
+
+</form>
+ </div>
+</body>
+</html>

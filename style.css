@@ -1,0 +1,325 @@
+
+body{background-image: url("images/o5.jpg");width:200vh;height: 100% ;background-size: cover}
+
+.header{
+    background-image:url("img/Computer-Generated-Imagery-Studio.jpg");
+    height:  100vh;
+    background-size: cover ;
+
+    background-position: center center;
+
+
+}
+
+.header .content
+{
+
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+
+}
+.header  a{
+    color: olive;
+    padding-right: 30px;
+    width: 15px;
+    height: 50px;
+
+
+}
+.header .navbar .icon a{
+
+    background-color: #8E7754;
+    width: 5px;
+    height: 5px;
+
+}
+
+.header .navbar
+{
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    position: fixed;
+    text-align: right;
+}
+.header .navbar img {
+    width: 5%;
+
+
+}
+
+
+
+
+
+
+
+.header.content h1{
+    font-size: 90px;
+    margin: 20px 0;
+}
+
+
+.header .content .button{
+    margin-top: 100px;
+
+
+}
+
+.header .content .button a{
+
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 15px;
+
+}
+.header .content .button  a:first-child{
+
+    background-color: black;
+    border:  #8E7754  solid 3px;
+}
+
+.header .content .button a:last-child{
+    border: #fff solid 3px;
+    background-color: transparent;
+}
+
+.header .content .button a:hover {
+    background-color: #fff;
+    color: black;
+
+}
+
+
+.header .content p{
+
+    font-size: 20px;
+    color: white;
+}
+.header .content{
+    width: 85%;
+    margin: auto;
+}
+.header .content h1{
+    color: lightyellow;
+
+}
+
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+.PARENT {
+    margin-top: 150px;
+    text-align: center;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    color:#8C8C8C;
+
+}
+.PARENT h2{
+    color: black;
+}
+.PARENT .PAR
+
+{
+    width: 33.3%;
+    background-color: transparent;
+    float: left;
+    padding: 20px 40px;
+    box-sizing: border-box;
+
+}
+
+.PARENT .PAR img{
+
+    width: 100%;
+}
+.PARENT .PAR .I {
+    width: 50%;
+}
+
+
+
+
+.PARENT .clr{
+    clear: both;
+}
+
+.PARENT .PAR p {
+    color: #7D7D7D;
+
+}
+.PARENT .PAR h2{
+    color: black;
+}
+
+.PARENT .con {
+    width: 85%;
+    margin: auto;
+
+}
+
+
+.item {
+    margin-top: 2000px;
+    text-align: center;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    color:#8C8C8C;
+
+}
+.item h2{
+    color: black;
+}
+.item .it
+
+{
+    width: 25%;
+    background-color: transparent;
+    float: left;
+    padding: 20px 40px;
+    box-sizing: border-box;
+
+}
+
+.item .it   img{
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.item .clr{
+    clear: both;
+}
+
+.item .it  p {
+    color: #7D7D7D;
+
+}
+.item .it  h2{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+<!--  صفححة الman -->
+.header1{
+    height: 100vh;
+}
+.header1 .navbar1
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.header1 .navbar1 a:hover
+{
+    color: olive;
+}
+
+
+
+.man {
+    padding-top: 100px;
+    background-color: #EEEEEE;
+    height: 400px;
+    width: 70%;
+    margin-left: 100px
+;
+    margin-right: 150px;
+}
+
+.man h1{
+    font-size: 55px;
+    color: black;
+    padding-top: 15px;
+
+}
+.man p{
+    font-size: 20px;
+    padding-top: 15px;
+
+
+}
+<!--  imagessss-->
+
+
+      .bn  {
+
+          text-align: center;
+          background-color: transparent;
+          width: 100%;
+          height: 100vh;
+          color:#8C8C8C;
+
+      }
+
+.bn .clr{
+    clear: both;
+}
+.bn h2{
+    color: black;
+}
+.bn .it
+
+{
+    width: 25%;
+    background-color: transparent;
+    float: left;
+    padding: 20px;
+
+
+    box-sizing: border-box;
+
+}
+
+.bn .it   img{
+    height: 225px;
+    width: 225px;
+}
+
+
+
+
+.bn .it .buy{
+
+    background: peachpuff;
+    border:2px crimson;
+    width: 200px;
+    height: 40px;
+}

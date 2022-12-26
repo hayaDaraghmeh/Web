@@ -1,0 +1,51 @@
+<?php
+include('controles.php');
+?>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>log in </title>
+    <script>
+        function moveC(){
+            window.location.href="LogasCoustomer.html";
+        }
+        function moveA(){
+           window.location.href="LogasAdmin.html";
+        }
+
+    </script>
+    <style>
+
+        body{background-image: url("images/o5.jpg");background-size: cover;width:200vh;height: 100% ;}
+        form{ background-image: url("images/o4.jpg");background-size: 115vh;height: 70vh;width:70vh;position: relative;left: 70vh;top:8vh;right: 15vh}
+
+       .f{padding-top: 100px; text-align: center;font-family:Papyrus;font-size: 30px;color:black;text-shadow: 2px 3px 7px goldenrod;}
+       .bt{font-size: 30px;font-family:"MV Boli";text-shadow:2px 3px 2px orange;width: 250px;height: 50px;border-radius: 5px;box-shadow: 2px 2px 3px gold ; background-color: floralwhite;border-color:saddlebrown}
+    </style>
+
+</head>
+<body >
+
+
+
+
+<div class="form">
+
+    <form method="post" class="f" >
+
+        <p><h1 ><b>Login AS</b></h1></p>
+        <br>
+        <br>
+
+        <input value="admin" type="button" class="bt" onclick="moveA()" >
+        <br>
+        <br>
+        <input value="coustomer" type="button" class="bt" onclick="moveC()">
+
+
+</form>
+</div>
+</body>
+</html>
